@@ -459,7 +459,6 @@ const app = (moduleName) => {
           
           pipeDelta += ordered[i-1].pipe.length - ordered[i-1].sentence.length;
           ordered[i].index = ordered[i].index + pipeDelta
-
         }
 
         // return arr order by origin criteria
@@ -550,7 +549,6 @@ const app = (moduleName) => {
         // error with file TS
         console.error(e)
       }
-      
     };
 
     // replace pipe on sentence
@@ -685,3 +683,4 @@ const app = (moduleName) => {
 // directories of your projects
 const MODULES_LIST = [ ];
 for (let x of MODULES_LIST) app(x);
+
