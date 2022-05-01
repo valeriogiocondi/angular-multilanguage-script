@@ -4,12 +4,8 @@ const app = (moduleName) => {
 
   const getModuleNamePath = (module) => {
 
-    if (module.indexOf('contract-closing') !== -1) return 'contract-closing';
-    
-    if (module.indexOf('appointments') !== -1) return 'administration';
-
     return module;
-  }
+  };
 
   const LANGUAGE = 'IT';
   const MODULE_NAME = moduleName;
@@ -684,3 +680,4 @@ const app = (moduleName) => {
 const MODULES_LIST = [ ];
 for (let x of MODULES_LIST) app(x);
 
+// END
