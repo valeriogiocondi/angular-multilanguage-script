@@ -20,4 +20,4 @@ node ./index.js
 
 # License
 
-Angular Multilanguage Script is open source software [licensed as MIT](https://github.com/valeriogiocondi/reactitude/blob/master/LICENSE). 
+Angular Multilanguage Script is open source software [licensed as MIT](https://github.com/valeriogiocondi/angular-multilanguage-script/blob/main/LICENSE). 
